@@ -1,0 +1,372 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container a {
+    text-decoration-line: none;
+}
+
+.container .title {
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+}
+
+form {
+    color: white;
+    padding-left: 4px;
+    padding: 2px;
+    float: left;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+form input {
+    height: 3px;
+    border: none;
+    border-radius: 4px;
+    padding-right: 4px;
+    border: 1px solid blue;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+form button:hover {
+    line-height: 20px;
+    height: 40px opacity: 0;
+    border-radius: 2px;
+}
+
+
+/*==================================================*/
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(60, 179, 113);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 60px;
+    margin-top: 4px;
+    float: left;
+    padding-right: 8px;
+    padding-top: 6px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+/*============================================================ akhir header*/
+
+
+/*===========================================================awal main*/
+
+li {
+    list-style: none;
+}
+
+.top-wrapper {
+    background-image: url(img/logo_web12.png);
+    padding: 180px 0 100px 0;
+    color: white;
+    background-size: cover;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    opacity: 0.9;
+    text-shadow: 2px 2px black;
+}
+
+.top-wrapper p {
+    opacity: 1;
+    margin-bottom: 3px;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin: 2px 5px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.indonesia {
+    background-color: #3b5998;
+}
+
+.malaysia {
+    background-color: #55acee;
+}
+
+.amerika {
+    background-color: #3ed3ee;
+}
+
+.italia {
+    background-color: #3eee5f;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.lesson-wrapper {
+    height: 700px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: #5f5d60;
+}
+
+.heading h1 {
+    color: black;
+}
+
+.heading h2 {
+    font-weight: normal;
+    font-size: 28px;
+    color: #5f5d60;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson a {
+    color: #00CED1;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: #413e3e;
+}
+
+.mala {
+    background-color: #418ac2;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #323ddf;
+    margin: 5px 50px;
+}
+
+.ame {
+    background-color: #2cd1ee;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #1a4679;
+    margin: 5px 50px;
+}
+
+.ita {
+    background-color: #5dca88;
+    padding: 15px 40px;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+    margin: 5px 50px;
+}
+
+.mala:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.ame:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.ita:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.heading h3 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.contact-form {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: #605e5d;
+    margin-right: 250px;
+    margin-left: 80px;
+}
+
+.selection-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    padding-bottom: 8px;
+    color: #5f5d60;
+    text-align: left;
+    width: 50%;
+}
+
+input,
+textarea {
+    width: 250px;
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
+    padding: 2px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: #white;
+    color: white;
+    line-height: 2px;
+    padding: 20px;
+    background-color: #00BFFF;
+    opacity: 1;
+}
+
+.contact-submit:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+    border-color: blue;
+}
+
+.copy-container h2 {
+    font-size: 60px;
+}
+
+.copy-container span {
+    color: #ff4a4a;
+}
+
+
+/*footer css*/
+
+footer {
+    height: 140px;
+    background-color: rgb(60, 179, 113);
+}
+
+.copyright {
+    font-size: 20px;
+    color: white;
+    padding-top: 4%;
+    float: left;
+}
+
+.mother {
+    height: 100px;
+    padding-top: 20px;
+    padding-left: 20%;
+    text-align: center;
+    color: white;
+}
+
+.father {
+    float: left;
+    width: 25%;
+    padding-left: 20%;
+    padding-right: 6px;
+}
+
+.child {
+    position: relative;
+}
+
+.child label {
+    padding-bottom: 2px;
+    font-size: 22px;
+}
+
+.father p {
+    text-align: left;
+}
